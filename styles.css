@@ -39,8 +39,29 @@
     color: white;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 4px solid white;
+  }
+  
+  .hero-content h2 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
   }
   
   .btn {
