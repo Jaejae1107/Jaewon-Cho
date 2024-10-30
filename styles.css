@@ -9,12 +9,14 @@
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     color: #333;
+    line-height: 1.8;  /* Better line spacing */
+    font-size: 20px;  /* Increased base font size */
   }
   
   /* Navbar Styles */
   .navbar {
     background-color: white;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2.5rem;  /* Increased padding for better layout */
     border-bottom: 1px solid #ddd;
   }
   
@@ -22,13 +24,14 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    gap: 2rem;
+    gap: 2.5rem;
   }
   
   .nav-links a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: 20px;  /* Increased font size for links */
   }
   
   .nav-links .active {
@@ -40,52 +43,54 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1100px;
-    margin: 4rem auto;
-    padding: 2rem;
+    max-width: 1200px;
+    margin: 5rem auto;  /* Increased spacing around the section */
+    padding: 2.5rem;
   }
   
   .profile-text {
     flex: 1;
-    padding-right: 2rem;
+    padding-right: 2.5rem;  /* Adjusted padding */
   }
   
   .profile-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 3rem;  /* Larger heading */
+    margin-bottom: 1rem;
   }
   
   .profile-text .tagline {
-    font-size: 1.2rem;
+    font-size: 1.5rem;  /* Slightly larger tagline */
     color: #666;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
   
   .profile-text p {
-    margin-bottom: 1rem;
-    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;  /* Improved readability */
   }
   
   .location {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-style: italic;
     color: #777;
+    font-size: 1.2rem;  /* Increased location font size */
   }
   
   /* Profile Image Styles */
   .profile-image {
-    flex: 0 0 250px;
+    flex: 0 0 300px;  /* Slightly larger image container */
     text-align: center;
   }
   
   .profile-image img {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  /* Slightly stronger shadow */
   }
   
+  /* Responsive Design for Smaller Screens */
   @media (max-width: 768px) {
     .profile-section {
       flex-direction: column;
@@ -94,11 +99,11 @@
   
     .profile-text {
       padding-right: 0;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
   
     .profile-image {
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
   }
   
