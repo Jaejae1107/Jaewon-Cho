@@ -5,50 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
 </head>
 <body>
-  <header class="hero">
+  <header class="navbar">
     <nav>
-      <h1 class="logo">My Portfolio</h1>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about" class="active">about</a></li>
+        <li><a href="#blog">blog</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#cv">cv</a></li>
       </ul>
     </nav>
-
-    <div class="profile-container">
-      <img src="images/profile.jpg" alt="Profile Picture" class="profile-picture">
-      <div class="hero-content">
-        <h2>Hello, I'm Julie!</h2>
-        <p>Web Developer | Designer | Content Creator</p>
-        <a href="#projects" class="btn">View My Work</a>
-      </div>
-    </div>
   </header>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>I am a passionate web developer creating beautiful and responsive websites. I enjoy working with modern technologies and delivering top-quality designs.</p>
+  <section class="profile-section">
+    <div class="profile-text">
+      <h1><strong>Juhyun</strong> Lee</h1>
+      <p class="tagline">Explore, Experiment, and Enjoy</p>
+      <p>
+        I’m Juhyun Lee. I graduated from Chung-Ang University with a Bachelor of Arts degree in French Literature and a double major in Statistics. 
+        I worked as a research assistant in the ET lab led by Professor Il-Youp Kwak and collaborated with Professor Junyeong Kim on research 
+        mitigating bias in AI systems. My research motivated me to develop deep learning models to make a positive impact.
+      </p>
+      <p>
+        Beyond academia, I find joy in hearing people’s stories, reading, playing tennis, and immersing myself in music.
+        Sports and music are a huge part of my life.
+      </p>
+      <p class="location">Seoul, Korea</p>
+    </div>
+
+    <div class="profile-image">
+      <img src="images/profile.jpg" alt="Profile Picture">
+    </div>
   </section>
 
-  <section id="projects" class="projects">
-    <h2>My Projects</h2>
-    <div class="project-card">
-      <h3>Project One</h3>
-      <p>A web app built with React and Node.js.</p>
-    </div>
-    <div class="project-card">
-      <h3>Project Two</h3>
-      <p>A personal blog using HTML, CSS, and JavaScript.</p>
-    </div>
-  </section>
-
-  <footer id="contact" class="footer">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:julie@example.com">julie@example.com</a></p>
-    <p>© 2024 My Portfolio. All Rights Reserved.</p>
-  </footer>
 </body>
 </html>
