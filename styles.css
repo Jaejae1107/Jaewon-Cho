@@ -66,23 +66,23 @@
     line-height: 1.6;
   }
   
-  .location {
-    margin-top: 1rem;
-    font-style: italic;
-    color: #777;
-  }
-  
   /* Profile Image Styles */
-  .profile-image {
+  .profile-image-container {
     flex: 0 0 250px;
     text-align: center;
   }
   
-  .profile-image img {
+  .profile-image {
     width: 250px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #777;
   }
   
