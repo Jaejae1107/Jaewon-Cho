@@ -1,24 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset Styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-}
-header {
-    text-align: center;
-    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
     background-color: #333;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
     color: white;
-}
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #5C67F2;
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
-}
-footer {
+  }
+  
+  .about, .projects, .footer {
+    padding: 2rem;
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-}
+  }
+  
+  .project-card {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
