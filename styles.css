@@ -86,3 +86,19 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   }
   
+  @media (max-width: 768px) {
+    .profile-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-text {
+      padding-right: 0;
+      margin-bottom: 2rem;
+    }
+  
+    .profile-image {
+      margin-top: 1rem;
+    }
+  }
+  
