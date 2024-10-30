@@ -1,2 +1,2 @@
 # Jaewon-Cho
-Jaewon Cho Portfoili
+Jaewon Cho Portfolio
